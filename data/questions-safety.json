@@ -1,0 +1,337 @@
+[
+  {
+    "id": "SAFE-001",
+    "bank": "safety",
+    "taskId": "A1",
+    "category": "Safety",
+    "difficulty": 2,
+    "stem": "Before servicing energized equipment (e.g., boiler controls), the safest standard approach is to:",
+    "choices": [
+      "Work live to avoid resetting controls",
+      "Lockout/tagout, verify zero energy, then proceed",
+      "Turn off one breaker and start immediately",
+      "Wear gloves and proceed without isolating power"
+    ],
+    "answerIndex": 1,
+    "explanation": "Lockout/tagout with verification (test before touch) is the standard to control hazardous energy.",
+    "references": [
+      {
+        "code": "WorkSafeBC / employer policy",
+        "location": "Lockout/Tagout (hazardous energy control)",
+        "confidence": "needs_verify",
+        "note": "Use your site LOTO procedure and WorkSafeBC guidance."
+      }
+    ]
+  },
+  {
+    "id": "SAFE-002",
+    "bank": "safety",
+    "taskId": "A1",
+    "category": "Safety",
+    "difficulty": 2,
+    "stem": "When working in a mechanical room with gas appliances, the FIRST action if you smell gas is to:",
+    "choices": [
+      "Turn on exhaust fans and continue working",
+      "Ignite the appliance to burn off the gas",
+      "Evacuate/ventilate safely, avoid ignition sources, and follow emergency procedure",
+      "Open a flame to locate the leak"
+    ],
+    "answerIndex": 2,
+    "explanation": "Treat gas odour as an emergency: avoid ignition sources, ventilate if safe, evacuate, and follow site emergency procedures.",
+    "references": [
+      {
+        "code": "Site safety / gas utility guidance",
+        "location": "Gas leak response procedure",
+        "confidence": "needs_verify",
+        "note": "Follow your employer and local gas utility emergency steps."
+      }
+    ]
+  },
+  {
+    "id": "SAFE-003",
+    "bank": "safety",
+    "taskId": "A1",
+    "category": "Safety",
+    "difficulty": 3,
+    "stem": "Eye protection is MOST critical when:",
+    "choices": [
+      "Sweeping floors",
+      "Soldering/cutting/grinding or using compressed air to blow out lines",
+      "Filling out paperwork",
+      "Listening for pipe noise"
+    ],
+    "answerIndex": 1,
+    "explanation": "Cutting/grinding, soldering, and compressed air can propel debris and cause burns—eye protection is essential.",
+    "references": []
+  },
+  {
+    "id": "SAFE-004",
+    "bank": "safety",
+    "taskId": "A1",
+    "category": "Safety",
+    "difficulty": 3,
+    "stem": "A confined space is MOST accurately described as a space that:",
+    "choices": [
+      "Is any small room",
+      "Is designed for continuous occupancy",
+      "Has limited entry/exit and may have hazardous atmosphere or other hazards",
+      "Has a door that can lock"
+    ],
+    "answerIndex": 2,
+    "explanation": "Confined spaces have restricted entry/exit and are not intended for continuous occupancy; atmospheric hazards may exist.",
+    "references": [
+      {
+        "code": "WorkSafeBC",
+        "location": "Confined space definition/requirements",
+        "confidence": "needs_verify",
+        "note": "Confirm permit, testing, ventilation and rescue requirements in WorkSafeBC regs."
+      }
+    ]
+  },
+  {
+    "id": "SAFE-005",
+    "bank": "safety",
+    "taskId": "A1",
+    "category": "Safety",
+    "difficulty": 2,
+    "stem": "The BEST way to protect yourself from scalding when testing domestic hot water is to:",
+    "choices": [
+      "Use your hand to test temperature quickly",
+      "Open the hot tap fully immediately",
+      "Open slowly, use a thermometer, and be aware of mixing valve settings",
+      "Only test after turning up the boiler setpoint"
+    ],
+    "answerIndex": 2,
+    "explanation": "Open slowly and measure temperature; scald protection is managed by safe procedures and properly set mixing valves.",
+    "references": [
+      {
+        "code": "Best practice",
+        "location": "Scald prevention / mixing valve use",
+        "confidence": "needs_verify",
+        "note": "Verify local requirements for max delivery temperature where applicable."
+      }
+    ]
+  },
+  {
+    "id": "SAFE-006",
+    "bank": "safety",
+    "taskId": "A1",
+    "category": "Safety",
+    "difficulty": 2,
+    "stem": "When lifting heavy equipment (e.g., pumps, water heaters), the safest approach is to:",
+    "choices": [
+      "Twist while lifting to save time",
+      "Lift with a rounded back to keep it close",
+      "Use mechanical assistance/team lift and keep load close with neutral spine",
+      "Lift quickly to reduce strain time"
+    ],
+    "answerIndex": 2,
+    "explanation": "Use proper manual handling: neutral spine, load close, avoid twisting, and use mechanical aids or team lifts.",
+    "references": []
+  },
+  {
+    "id": "SAFE-007",
+    "bank": "safety",
+    "taskId": "A1",
+    "category": "Safety",
+    "difficulty": 2,
+    "stem": "When using a ladder, the recommended setup angle is commonly described as:",
+    "choices": [
+      "1:1",
+      "4:1",
+      "6:1",
+      "10:1"
+    ],
+    "answerIndex": 1,
+    "explanation": "The 4:1 rule is a standard ladder-angle guideline for stability and safe climbing.",
+    "references": [
+      {
+        "code": "WorkSafeBC / ladder safety",
+        "location": "4:1 ladder rule",
+        "confidence": "needs_verify",
+        "note": "Confirm against the current WorkSafeBC ladder guidance used by your employer."
+      }
+    ]
+  },
+  {
+    "id": "SAFE-008",
+    "bank": "safety",
+    "taskId": "A1",
+    "category": "Safety",
+    "difficulty": 3,
+    "stem": "Before cutting into a pipe that may be under pressure, you should FIRST:",
+    "choices": [
+      "Cut quickly and control the spray",
+      "Verify isolation, depressurize, and confirm no stored pressure remains",
+      "Heat the pipe to reduce pressure",
+      "Open nearby fixtures only"
+    ],
+    "answerIndex": 1,
+    "explanation": "Confirm isolation and depressurization to prevent injury, water damage, and uncontrolled release.",
+    "references": []
+  },
+  {
+    "id": "SAFE-009",
+    "bank": "safety",
+    "taskId": "A1",
+    "category": "Safety",
+    "difficulty": 3,
+    "stem": "When working with chemical descalers/cleaners, the MOST important first step is to:",
+    "choices": [
+      "Mix different products to increase strength",
+      "Read the SDS/label and use required PPE and ventilation",
+      "Use hot water to activate fumes",
+      "Store open containers for quick access"
+    ],
+    "answerIndex": 1,
+    "explanation": "SDS/label provides hazards, PPE, ventilation, first aid, and handling instructions.",
+    "references": [
+      {
+        "code": "WHMIS / SDS",
+        "location": "Safety Data Sheet requirements",
+        "confidence": "needs_verify",
+        "note": "Follow WHMIS training and site chemical handling policy."
+      }
+    ]
+  },
+  {
+    "id": "SAFE-010",
+    "bank": "safety",
+    "taskId": "A1",
+    "category": "Safety",
+    "difficulty": 3,
+    "stem": "When soldering near combustible materials, the BEST precaution is to:",
+    "choices": [
+      "Use a larger torch flame to finish faster",
+      "Use a heat shield/fire blanket and have a fire watch/extinguisher available",
+      "Spray water continuously on the flame",
+      "Ignore combustibles if the joint is small"
+    ],
+    "answerIndex": 1,
+    "explanation": "Use shielding and appropriate fire precautions to prevent ignition; follow hot-work controls as required.",
+    "references": [
+      {
+        "code": "Employer policy / hot work",
+        "location": "Hot work precautions",
+        "confidence": "needs_verify",
+        "note": "Many workplaces require hot-work permits and a fire watch."
+      }
+    ]
+  },
+  {
+    "id": "SAFE-011",
+    "bank": "safety",
+    "taskId": "A1",
+    "category": "Safety",
+    "difficulty": 2,
+    "stem": "Hearing protection is MOST appropriate when:",
+    "choices": [
+      "Working in quiet offices",
+      "Using loud power tools (e.g., grinders) or in high-noise mechanical rooms",
+      "Soldering small copper joints",
+      "Measuring pipe lengths"
+    ],
+    "answerIndex": 1,
+    "explanation": "High-noise tools/areas can exceed safe exposure limits; hearing protection prevents long-term hearing loss.",
+    "references": []
+  },
+  {
+    "id": "SAFE-012",
+    "bank": "safety",
+    "taskId": "A1",
+    "category": "Safety",
+    "difficulty": 2,
+    "stem": "The BEST way to prevent slips/trips in a work area is to:",
+    "choices": [
+      "Ignore small spills",
+      "Keep housekeeping tight: clean spills, manage cords/hoses, and keep walkways clear",
+      "Wear any shoes",
+      "Move faster through the area"
+    ],
+    "answerIndex": 1,
+    "explanation": "Housekeeping and hazard control reduces common injuries from slips/trips/falls.",
+    "references": []
+  },
+  {
+    "id": "SAFE-013",
+    "bank": "safety",
+    "taskId": "A1",
+    "category": "Safety",
+    "difficulty": 3,
+    "stem": "If you suspect carbon monoxide (CO) exposure, the BEST immediate action is to:",
+    "choices": [
+      "Continue working with doors closed",
+      "Move to fresh air immediately and follow emergency procedures",
+      "Turn up the boiler to improve draft",
+      "Smell-check the flue joints closely"
+    ],
+    "answerIndex": 1,
+    "explanation": "CO is dangerous and can be fatal. Move to fresh air and follow emergency response procedures.",
+    "references": [
+      {
+        "code": "Safety guidance",
+        "location": "CO response",
+        "confidence": "needs_verify",
+        "note": "Confirm site emergency actions; call emergency services if required."
+      }
+    ]
+  },
+  {
+    "id": "SAFE-014",
+    "bank": "safety",
+    "taskId": "A3",
+    "category": "Organizing Work",
+    "difficulty": 2,
+    "stem": "Before starting a job, the BEST way to reduce rework and hazards is to:",
+    "choices": [
+      "Start immediately to save time",
+      "Do a quick hazard assessment, confirm scope, isolate services, and plan the sequence",
+      "Only check tools after the job is done",
+      "Wait for someone else to plan"
+    ],
+    "answerIndex": 1,
+    "explanation": "Planning + hazard assessment + isolations reduce incidents and rework.",
+    "references": []
+  },
+  {
+    "id": "SAFE-015",
+    "bank": "safety",
+    "taskId": "A3",
+    "category": "Organizing Work",
+    "difficulty": 2,
+    "stem": "A Job Hazard Analysis (JHA) is primarily used to:",
+    "choices": [
+      "Calculate pipe sizing",
+      "Identify hazards, assess risks, and apply controls before work starts",
+      "Choose pipe material based on cost",
+      "Set boiler temperature curves"
+    ],
+    "answerIndex": 1,
+    "explanation": "JHA/JSA documents hazards and controls (PPE, isolation, barriers, procedures) before performing the work.",
+    "references": [
+      {
+        "code": "Employer safety system",
+        "location": "JHA/JSA process",
+        "confidence": "needs_verify",
+        "note": "Use your workplace hazard assessment form/process."
+      }
+    ]
+  },
+  {
+    "id": "SAFE-016",
+    "bank": "safety",
+    "taskId": "A4",
+    "category": "Routine Trade Activities",
+    "difficulty": 2,
+    "stem": "After completing a repair on a potable water line, the BEST final step before leaving is to:",
+    "choices": [
+      "Leave immediately if it looks dry",
+      "Confirm operation, check for leaks under pressure, and restore area/notify client",
+      "Turn water off permanently",
+      "Only photograph the repair"
+    ],
+    "answerIndex": 1,
+    "explanation": "Verify under operating conditions and ensure the system is safe, leak-free, and the area is restored/communicated.",
+    "references": []
+  }
+]
