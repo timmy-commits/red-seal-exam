@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Red Seal Plumbing Exam Engine</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="wrap">
+    <div class="brand">
+      <div class="badge">Red Seal</div>
+      <div>
+        <h1>Plumbing Exam Engine</h1>
+        <p class="sub">Randomized practice • shows clause references under each question</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="setup" class="card">
+      <h2>Start a Test</h2>
+
+      <div class="grid">
+        <div>
+          <label class="label">Test length</label>
+          <div class="row">
+            <label class="pill"><input type="radio" name="length" value="15" checked /> 15</label>
+            <label class="pill"><input type="radio" name="length" value="40" /> 40</label>
+            <label class="pill"><input type="radio" name="length" value="125" /> 125</label>
+          </div>
+
+          <label class="label">Mode</label>
+          <div class="row">
+            <label class="pill"><input type="radio" name="mode" value="exam" checked /> Exam (no hints until answered)</label>
+            <label class="pill"><input type="radio" name="mode" value="training" /> Training (show hints + refs after answer)</label>
+          </div>
+
+          <label class="label">Blueprint</label>
+          <div class="row">
+            <label class="check">
+              <input type="checkbox" id="useBlueprint" checked />
+              Use SkilledTradesBC IP (2023 RSOS) weighting (recommended)
+            </label>
+          </div>
+          <p class="muted">
+            If enabled, questions are selected by Task (A1…G21) to match the 125-question IP exam breakdown.
+            For 15/40, it scales the same weighting.
+          </p>
+
+          <label class="label">Include categories (question files)</label>
+          <div class="row wraprow">
+            <label class="check"><input type="checkbox" class="cat" value="core" checked /> Core / Mixed</label>
+            <label class="check"><input type="checkbox" class="cat" value="dwv" checked /> DWV</label>
+            <label class="check"><input type="checkbox" class="cat" value="hydronic" checked /> Hydronic</label>
+            <label class="check"><input type="checkbox" class="cat" value="safety" checked /> Safety</label>
+            <label class="check"><input type="checkbox" class="cat" value="tools" checked /> Tools</label>
+            <label class="check"><input type="checkbox" class="cat" value="math" checked /> Math</label>
+          </div>
+
+          <div class="row">
+            <button id="startBtn" class="btn primary">Start</button>
+            <button id="loadBtn" class="btn">Reload Question Bank</button>
+          </div>
+
+          <p class="muted" id="bankStatus">Question bank: not loaded yet.</p>
+          <p class="muted" id="blueprintStatus">Blueprint: not loaded yet.</p>
+        </div>
+
+        <div class="note">
+          <h3>How this trains you</h3>
+          <ul>
+            <li>Pulls from a pool (target: <b>250</b>)</li>
+            <li>Shuffles every run</li>
+            <li>Shows explanations + clause refs under the question after you answer</li>
+            <li>Tracks score + review missed questions at the end</li>
+            <li><b>Blueprint mode</b> matches SkilledTradesBC IP task weighting</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="exam" class="card hidden">
+      <div class="topbar">
+        <div>
+          <div class="kpis">
+            <div class="kpi"><span class="k">Q</span> <span id="kpiQ">1</span>/<span id="kpiTotal">0</span></div>
+            <div class="kpi"><span class="k">Score</span> <span id="kpiScore">0</span></div>
+          </div>
+          <p class="muted" id="kpiMeta"></p>
+        </div>
+        <div class="row">
+          <button id="quitBtn" class="btn">Quit</button>
+        </div>
+      </div>
+
+      <div id="questionHost"></div>
+
+      <div class="nav">
+        <button id="prevBtn" class="btn">Back</button>
+        <button id="nextBtn" class="btn primary">Next</button>
+      </div>
+    </section>
+
+    <section id="results" class="card hidden">
+      <h2>Results</h2>
+      <p id="resultsSummary" class="sub"></p>
+
+      <div class="row">
+        <button id="reviewMissedBtn" class="btn primary">Review Missed</button>
+        <button id="restartBtn" class="btn">New Test</button>
+      </div>
+
+      <div id="missedHost" class="missed"></div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <p class="muted">Local-only. No tracking. Save your own question bank in <code>data/*.json</code>.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
