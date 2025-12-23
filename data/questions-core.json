@@ -1,0 +1,219 @@
+[
+  {
+    "id": "CORE-001",
+    "bank": "core",
+    "taskId": "C10",
+    "category": "DWV",
+    "difficulty": 2,
+    "stem": "A vent pipe size must conform to which minimum table when sizing vents based on trap size served?",
+    "choices": ["Table 2.4.10.6", "Table 2.5.7.1", "Table 2.5.8.1 only", "There is no minimum vent sizing table in the NPC"],
+    "answerIndex": 1,
+    "explanation": "Minimum vent sizing is based on the size of the trap served and uses Table 2.5.7.1.",
+    "references": []
+  },
+  {
+    "id": "CORE-002",
+    "bank": "core",
+    "taskId": "A1",
+    "category": "Safety",
+    "difficulty": 2,
+    "stem": "Before starting work on any energized electrical equipment (e.g., boiler controls), the safest standard approach is:",
+    "choices": ["Work live to avoid resetting controls", "Lockout/tagout, verify zero energy, then proceed", "Turn off one breaker only and start immediately", "Wear gloves and proceed without isolating power"],
+    "answerIndex": 1,
+    "explanation": "Lockout/tagout with verification controls hazardous energy.",
+    "references": []
+  },
+  {
+    "id": "CORE-003",
+    "bank": "core",
+    "taskId": "A2",
+    "category": "Tools",
+    "difficulty": 1,
+    "stem": "On a tape measure, 3/8 inch is equal to how many sixteenths?",
+    "choices": ["4/16", "5/16", "6/16", "8/16"],
+    "answerIndex": 2,
+    "explanation": "3/8 = 6/16 (multiply numerator and denominator by 2).",
+    "references": []
+  },
+  {
+    "id": "CORE-004",
+    "bank": "core",
+    "taskId": "B7",
+    "category": "Piping Systems",
+    "difficulty": 2,
+    "stem": "When joining copper tube with solder, the PRIMARY reason you clean and flux is to:",
+    "choices": ["Increase pipe wall thickness", "Lower the melting point of copper", "Remove oxides and promote capillary action for solder flow", "Prevent the joint from cooling too quickly"],
+    "answerIndex": 2,
+    "explanation": "Cleaning removes oxides; flux prevents re-oxidation and helps solder wet and flow by capillary action.",
+    "references": []
+  },
+  {
+    "id": "CORE-005",
+    "bank": "core",
+    "taskId": "F17",
+    "category": "Hydronic",
+    "difficulty": 3,
+    "stem": "In a primary/secondary hydronic system, closely spaced tees are used mainly to:",
+    "choices": ["Increase boiler efficiency by raising delta-T", "Hydraulically separate flows and prevent one circulator from overpowering another", "Eliminate the need for an expansion tank", "Replace the air separator"],
+    "answerIndex": 1,
+    "explanation": "Closely spaced tees provide hydraulic separation so circulators don’t fight each other.",
+    "references": []
+  },
+  {
+    "id": "CORE-006",
+    "bank": "core",
+    "taskId": "C10",
+    "category": "DWV",
+    "difficulty": 3,
+    "stem": "A trap seal is primarily intended to prevent:",
+    "choices": ["Water hammer", "Backflow into the potable system", "Sewer gases from entering occupied spaces", "Pipe corrosion from acidic condensate"],
+    "answerIndex": 2,
+    "explanation": "A water seal in the trap blocks sewer gases from entering the building.",
+    "references": []
+  },
+  {
+    "id": "CORE-007",
+    "bank": "core",
+    "taskId": "A4",
+    "category": "Math",
+    "difficulty": 2,
+    "stem": "A horizontal drain is 12 m long and must be sloped at 1% minimum. What is the total fall required?",
+    "choices": ["12 mm", "60 mm", "120 mm", "240 mm"],
+    "answerIndex": 2,
+    "explanation": "1% slope = 0.01 × 12 m = 0.12 m = 120 mm.",
+    "references": []
+  },
+  {
+    "id": "CORE-008",
+    "bank": "core",
+    "taskId": "A1",
+    "category": "Safety",
+    "difficulty": 2,
+    "stem": "When using a ladder, the recommended setup angle is commonly described as:",
+    "choices": ["1:1", "4:1", "6:1", "10:1"],
+    "answerIndex": 1,
+    "explanation": "The 4:1 rule is a standard ladder-angle guideline.",
+    "references": []
+  },
+  {
+    "id": "CORE-009",
+    "bank": "core",
+    "taskId": "F17",
+    "category": "Hydronic",
+    "difficulty": 3,
+    "stem": "An expansion tank in a closed hydronic system is installed to:",
+    "choices": ["Remove air from the system", "Compensate for thermal expansion and stabilize pressure", "Increase flow rate through radiators", "Prevent scale formation"],
+    "answerIndex": 1,
+    "explanation": "Water expands when heated; the expansion tank absorbs volume change and prevents pressure spikes.",
+    "references": []
+  },
+  {
+    "id": "CORE-010",
+    "bank": "core",
+    "taskId": "B7",
+    "category": "Piping Systems",
+    "difficulty": 2,
+    "stem": "A dielectric union is primarily used to:",
+    "choices": ["Increase pipe wall thickness", "Prevent galvanic corrosion between dissimilar metals", "Reduce water hammer", "Increase water pressure"],
+    "answerIndex": 1,
+    "explanation": "Dielectric isolation reduces galvanic corrosion between dissimilar metals.",
+    "references": []
+  },
+  {
+    "id": "CORE-011",
+    "bank": "core",
+    "taskId": "A2",
+    "category": "Tools",
+    "difficulty": 2,
+    "stem": "After cutting copper tube with a tubing cutter, the NEXT required step is to:",
+    "choices": ["Apply flux immediately", "Deburr the inside edge of the tube", "Heat the tube with a torch", "Install the fitting dry"],
+    "answerIndex": 1,
+    "explanation": "Deburring removes sharp edges and improves flow and joint quality.",
+    "references": []
+  },
+  {
+    "id": "CORE-012",
+    "bank": "core",
+    "taskId": "A3",
+    "category": "Organizing Work",
+    "difficulty": 2,
+    "stem": "Before starting a job, the BEST way to reduce rework and hazards is to:",
+    "choices": ["Start immediately to save time", "Do a quick hazard assessment, confirm scope, isolate services, and plan the sequence", "Only check tools after the job is done", "Wait for someone else to plan"],
+    "answerIndex": 1,
+    "explanation": "Planning + isolations + hazard controls reduces incidents and rework.",
+    "references": []
+  },
+
+  {
+    "id": "CORE-D11-001",
+    "bank": "core",
+    "taskId": "D11",
+    "category": "Water Service",
+    "difficulty": 2,
+    "stem": "A curb stop (street shutoff) is used primarily to:",
+    "choices": [
+      "Adjust water temperature",
+      "Shut off water service to the building from the utility side",
+      "Vent the drainage system",
+      "Control hydronic boiler pressure"
+    ],
+    "answerIndex": 1,
+    "explanation": "A curb stop allows the water service to be isolated from the utility side for repairs or emergencies.",
+    "references": []
+  },
+  {
+    "id": "CORE-E14-001",
+    "bank": "core",
+    "taskId": "E14",
+    "category": "Fixtures & Appliances",
+    "difficulty": 2,
+    "stem": "A fixture supply stop (angle stop) is installed primarily to:",
+    "choices": [
+      "Increase fixture flow rate",
+      "Allow isolation of a single fixture for service",
+      "Vent the fixture trap",
+      "Prevent thermal expansion in hydronics"
+    ],
+    "answerIndex": 1,
+    "explanation": "Stops isolate individual fixtures so repairs can be made without shutting down the entire building.",
+    "references": []
+  },
+  {
+    "id": "CORE-E15-001",
+    "bank": "core",
+    "taskId": "E15",
+    "category": "Water Treatment",
+    "difficulty": 2,
+    "stem": "A water softener primarily removes:",
+    "choices": [
+      "Bacteria",
+      "Hardness minerals (calcium and magnesium)",
+      "Chlorine taste/odour",
+      "Sediment only"
+    ],
+    "answerIndex": 1,
+    "explanation": "Softeners remove hardness (Ca/Mg), reducing scale formation in systems and appliances.",
+    "references": []
+  },
+  {
+    "id": "CORE-G19-001",
+    "bank": "core",
+    "taskId": "G19",
+    "category": "Commissioning / Service",
+    "difficulty": 3,
+    "stem": "After completing a repair or installation on a pressurized plumbing or hydronic system, the BEST final verification before leaving site is to:",
+    "choices": [
+      "Pack up tools once the system turns on",
+      "Confirm normal operation under load, check for leaks, verify all valves/controls are in correct positions, and document results",
+      "Turn the thermostat to maximum and leave",
+      "Open a drain valve briefly to prove flow"
+    ],
+    "answerIndex": 1,
+    "explanation": "Commissioning/verification means proving correct operation and safety under normal conditions, checking for leaks, confirming control/valve positions, and documenting the work.",
+    "references": []
+  }
+]
+
+
+]
+
